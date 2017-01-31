@@ -1,0 +1,89 @@
+<!doctype html>
+
+<!--
+Name : Jatinkumar Patel
+Class : CMPT-350
+Student no. : 11088549
+NSID : jkp323
+Assignment - 1
+-->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name=viewport content="width=device-width">
+    <meta name="description" content="contact page of 350 assignment-1">
+    <meta name="keywords" content=" CMPT-350 UoS 2016 HTML,CSS,JavaScript">
+    <meta name="author" content="Jatin Patel">
+    <title>CMPT-350 Assignment-1 Contact</title>
+    <link href="style/styl.css" rel="stylesheet" type="text/css">
+    <script src="script/validate.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header id="header" class="col span_3_of_3">
+
+            <img src="images/1515x723_Logo.png" alt="logo">
+            <h1> Jatin Patel</h1>
+
+        </header>
+
+
+        <nav id="menubar" class="span_3_of_3">
+
+            <ul id="menu">
+                <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutMe.html">About Me</a></li>
+                <li class="selected"><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+        </nav>
+
+        <section id="content" class="col span_3_of_3">
+
+            <!-- insert the page content here -->
+
+            <h2>Contact Us</h2>
+            <form action="#" method="post" name="myForm" onSubmit="formValidate();">
+
+                <div class="form_settings">
+
+                    <p><span>Name</span>
+                        <input class="contact" type="text" name="Name" id="Name" />
+                    </p>
+                    <p><span>Email Address</span>
+                        <input class="contact" type="email" name="Email" value="" id="Email" />
+                    </p>
+                    <p><span>Phone Number</span>
+                        <input name="PhoneNo" type="tel" class="contact" maxlength="12" value="XXX-XXX-XXXX" id="PhoneNo" />
+                    </p>
+                    <p><span>Date</span>
+                        <input class="contact" type="date" name="CurDate" value="yyyy-mm-dd" id="CurDate" />
+                    </p>
+                    <p><span>Message</span>
+                        <textarea class="contact textarea" rows="8" cols="50" name="Message" id="Message"></textarea>
+                    </p>
+                    <p style="padding-top: 15px"><span>&nbsp;</span>
+                        <input class="send" type="submit" name="contact_submitted" value="Send" />
+                    </p>
+                </div>
+            </form>
+
+
+        </section>
+
+
+        <footer id="footer" class="col span_3_of_3">
+
+            <p>&copy; Copyright 2016 Jatin Patel. All Right Reserved. </p>
+            <a href="http://facebook.com/#"><img src="images/facebook.png" alt="fbLogo" class="social"></a>
+            <a href="http://twitter.com/#"><img src="images/twitter.png" alt="twitterLogo" class="social"></a>
+            <a href="http://linkedin.com/#"><img src="images/linkedin.png" alt="linkdnLogo" class="social"></a>
+
+        </footer>
+    </div>
+</body>
+
+</html>
